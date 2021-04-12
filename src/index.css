@@ -4,9 +4,10 @@
 	padding: 0;
 }
 body {
-	background: url("/src/img/bg.png") fixed bottom;
+	background: black;
+	/* background: url("/src/img/bg.png") fixed bottom; */
 	background-size: cover;
 	background-repeat: no-repeat;
-	font-family: "Press Start 2P", cursive;
+	font-family: "Press Start 2P", sans-serif;
 	text-align: center;
 }
