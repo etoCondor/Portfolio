@@ -1,0 +1,48 @@
+.startPage {
+	font-size: 2.5vw;
+	color: black;
+}
+
+.startPage p {
+	position: relative;
+	margin-top: 30vh;
+	margin-bottom: 10%;
+	animation: blink 400ms alternate infinite;
+	cursor: default;
+	user-select: none;
+}
+@keyframes blink {
+	from {
+		opacity: 1;
+	}
+	to {
+		opacity: 0;
+	}
+}
+.startPage span {
+	user-select: none;
+	cursor: default;
+	position: relative;
+	padding: 2.5vw;
+	border-radius: 2.5vw;
+	background: rgb(0, 0, 0);
+	background: linear-gradient(
+		15deg,
+		rgba(0, 0, 0, 1) 0%,
+		rgba(0, 0, 0, 1) 35%,
+		rgba(176, 176, 176, 1) 100%
+	);
+	color: #b0b0b0;
+}
+a {
+	text-decoration: none;
+}
+
+.blast {
+	position: absolute;
+	right: 10vw;
+	bottom: 20px;
+}
+.blast img {
+	width: 15vw;
+}
