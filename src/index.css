@@ -10,4 +10,5 @@ body {
 	background-repeat: no-repeat;
 	font-family: "Press Start 2P", sans-serif;
 	text-align: center;
+	overflow: hidden;
 }

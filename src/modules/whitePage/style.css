@@ -1,0 +1,68 @@
+.whitePage {
+    margin: 0 auto;
+    margin-top: 5vh;
+    background-color: white;
+    height: 70vh;
+    width: 70vw;
+    animation: fadeIn ease 3s;
+	-webkit-animation: fadeIn ease 3s;
+	-moz-animation: fadeIn ease 3s;
+	-o-animation: fadeIn ease 3s;
+	-ms-animation: fadeIn ease 3s;
+    opacity: 0.8;
+}
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+		z-index: 2;
+	}
+	100% {
+		opacity: 0.8;
+		z-index: 0;
+	}
+}
+
+@-moz-keyframes fadeIn {
+	0% {
+		opacity: 0;
+		z-index: 2;
+	}
+	100% {
+		opacity: 0.8;
+		z-index: 0;
+	}
+}
+
+@-webkit-keyframes fadeIn {
+	0% {
+		opacity: 0;
+		z-index: 2;
+	}
+	100% {
+		opacity: 0.8;
+		z-index: 0;
+	}
+}
+
+@-o-keyframes fadeIn {
+	0% {
+		opacity: 0;
+		z-index: 2;
+	}
+	100% {
+		opacity: 0.8;
+		z-index: 0;
+	}
+}
+
+@-ms-keyframes fadeIn {
+	0% {
+		opacity: 0;
+		z-index: 2;
+	}
+	100% {
+		opacity: 0.8;
+		z-index: 0;
+	}
+}
