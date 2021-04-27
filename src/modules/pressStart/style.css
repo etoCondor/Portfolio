@@ -1,0 +1,23 @@
+.pressStartButton {
+	position: relative;
+	margin-top: 30vh;
+	margin-bottom: 10%;
+	cursor: default;
+}
+
+.buttonStart {
+	cursor: pointer;
+	position: relative;
+	padding: 2.5vw;
+	border-radius: 2.5vw;
+	background: rgb(0, 0, 0);
+	background: linear-gradient(
+		15deg,
+		rgba(0, 0, 0, 1) 0%,
+		rgba(0, 0, 0, 1) 35%,
+		rgba(176, 176, 176, 1) 100%
+	);
+	color: #b0b0b0;
+	text-decoration: none;
+	z-index: 1;
+}

@@ -1,15 +1,19 @@
 .whitePage {
-    margin: 0 auto;
-    margin-top: 5vh;
-    background-color: white;
-    height: 70vh;
-    width: 70vw;
-    animation: fadeIn ease 3s;
+	margin: 0 auto;
+	margin-top: 5vh;
+	background-color: white;
+	height: 70vh;
+	width: 70vw;
+	animation: fadeIn ease 3s;
 	-webkit-animation: fadeIn ease 3s;
 	-moz-animation: fadeIn ease 3s;
 	-o-animation: fadeIn ease 3s;
 	-ms-animation: fadeIn ease 3s;
-    opacity: 0.8;
+	opacity: 0.8;
+	padding: 2vh;
+	text-align: left;
+	font-size: 1.5vw;
+	overflow-y: scroll;
 }
 
 @keyframes fadeIn {
@@ -65,4 +69,59 @@
 		opacity: 0.8;
 		z-index: 0;
 	}
+}
+.whitePage p {
+	display: inline;
+	width: auto;
+	line-height: 3vw;
+}
+
+.upperPage {
+	height: 49vh;
+	position: relative;
+	top: 0;
+	overflow-y: scroll;
+	padding: 2vh;
+	border-bottom: black 1px solid;
+}
+.upperPage .stackImages {
+	margin-top: 8vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.upperPage img {
+	width: 10vw;
+	height: 10vw;
+}
+.projectsLinks a,
+.projectsLinks p {
+	width: auto;
+	cursor: pointer;
+	line-height: 2vw;
+	display: block;
+	margin: 2vw;
+	text-decoration: none;
+	color: black;
+}
+
+.lowerPage {
+	position: relative;
+	top: 2vh;
+	height: 15vh;
+	padding: 2vh;
+	vertical-align: middle;
+	display: table-cell;
+	vertical-align: middle;
+	overflow-y: scroll;
+}
+
+.lowerPage span {
+	cursor: pointer;
+	display: block;
+	margin-bottom: 1.5vh;
+}
+
+.lowerPage span:hover {
+	font-size: 2vw;
 }

@@ -1,0 +1,91 @@
+.gameOver {
+	position: absolute;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	animation: fadeInOp1 ease 3s;
+	-webkit-animation: fadeInOp1 ease 3s;
+	-moz-animation: fadeInOp1 ease 3s;
+	-o-animation: fadeInOp1 ease 3s;
+	-ms-animation: fadeInOp1 ease 3s;
+	z-index: 1;
+	opacity: 1;
+}
+@keyframes fadeInOp1 {
+	0% {
+		opacity: 0;
+		z-index: 2;
+	}
+	100% {
+		opacity: 1;
+		z-index: 0;
+	}
+}
+
+@-moz-keyframes fadeInOp1 {
+	0% {
+		opacity: 0;
+		z-index: 2;
+	}
+	100% {
+		opacity: 1;
+		z-index: 0;
+	}
+}
+
+@-webkit-keyframes fadeInOp1 {
+	0% {
+		opacity: 0;
+		z-index: 2;
+	}
+	100% {
+		opacity: 1;
+		z-index: 0;
+	}
+}
+
+@-o-keyframes fadeInOp1 {
+	0% {
+		opacity: 0;
+		z-index: 2;
+	}
+	100% {
+		opacity: 1;
+		z-index: 0;
+	}
+}
+
+@-ms-keyframes fadeInOp1 {
+	0% {
+		opacity: 0;
+		z-index: 2;
+	}
+	100% {
+		opacity: 1;
+		z-index: 0;
+	}
+}
+
+.gameOverText {
+	position: relative;
+	margin-top: 30vh;
+	margin-bottom: 10%;
+	cursor: default;
+}
+
+.buttonRetry {
+	cursor: pointer;
+	position: relative;
+	padding: 2.5vw;
+	border-radius: 2.5vw;
+	background: rgb(0, 0, 0);
+	background: linear-gradient(
+		15deg,
+		rgba(0, 0, 0, 1) 0%,
+		rgba(0, 0, 0, 1) 35%,
+		rgba(176, 176, 176, 1) 100%
+	);
+	color: #b0b0b0;
+	text-decoration: none;
+	z-index: 1;
+}
