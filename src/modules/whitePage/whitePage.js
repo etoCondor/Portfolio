@@ -104,7 +104,7 @@ const WhitePage = (props) => {
 							target='_blank'
 							href='https://imdb.etocondor.dev'
 						>
-							- Imdb films (like Netflix)
+							- IMDb films (like Netflix)
 						</a>
 
 						<p
