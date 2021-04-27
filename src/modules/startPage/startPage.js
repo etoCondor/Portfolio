@@ -85,6 +85,7 @@ const StartPage = () => {
 			document.querySelector(
 				"body",
 			).style.background = `url(${bg}) fixed bottom`;
+			console.log("Want my contacts? Here you are! etoCondor@yandex.ru");
 		}
 	}, [
 		bgLoaded,
