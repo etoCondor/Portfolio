@@ -5,14 +5,14 @@ const WhitePage = (props) => {
 	const textHello = `Hello and welcome to my portfolio page!`;
 	const textAbout = "I`m Alexey aka Condor! 27 y.o.";
 	const textStack = "I`m using HTML5, CSS3, JavaScript, React and Redux.";
-	const textProjects = "I have several projects: ";
+	const textProjects = "I have several projects:";
 	const [textForPrint, setTextForPrint] = useState("");
 	const [textType, setTextType] = useState("hello");
 	const [isTyping, setIsTyping] = useState(true);
 	const [stackImages, setStackImages] = useState(false);
 	const [projectsLinks, setProjectsLinks] = useState(false);
 	const [really, setReally] = useState("");
-	const { html, css, redux, react, /* nextjs,*/ js } = props.stackImages;
+	const { html, css, redux, react, js } = props.stackImages;
 
 	useEffect(() => {
 		setTimeout(() => {

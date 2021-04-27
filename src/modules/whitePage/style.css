@@ -96,7 +96,7 @@
 }
 .projectsLinks a,
 .projectsLinks p {
-	width: auto;
+	width: fit-content;
 	cursor: pointer;
 	line-height: 2vw;
 	display: block;
