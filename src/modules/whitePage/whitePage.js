@@ -92,6 +92,14 @@ const WhitePage = (props) => {
 							- Amazon.com
 						</a>
 
+						<a
+							rel='noreferrer'
+							target='_blank'
+							href='https://imdb.etocondor.dev'
+						>
+							- Imdb films (like Netflix)
+						</a>
+
 						<p
 							onClick={() =>
 								really === ""
