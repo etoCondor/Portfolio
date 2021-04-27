@@ -87,7 +87,14 @@ const WhitePage = (props) => {
 						<a
 							rel='noreferrer'
 							target='_blank'
-							href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'
+							href='https://amazon.com'
+							onClick={(e) => {
+								e.preventDefault();
+								window.open(
+									"https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+									"_blank",
+								);
+							}}
 						>
 							- Amazon.com
 						</a>
