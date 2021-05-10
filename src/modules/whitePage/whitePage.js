@@ -102,6 +102,14 @@ const WhitePage = (props) => {
 						<a
 							rel='noreferrer'
 							target='_blank'
+							href='https://sports.etocondor.dev'
+						>
+							- My sports schedule
+						</a>
+
+						<a
+							rel='noreferrer'
+							target='_blank'
 							href='https://imdb.etocondor.dev'
 						>
 							- IMDb films (like Netflix)

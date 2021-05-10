@@ -12,7 +12,7 @@ const GameOver = (props) => {
 				}}
 				className='buttonRetry'
 			>
-				Retry
+				RETRY
 			</span>
 		</div>
 	);
