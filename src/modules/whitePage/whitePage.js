@@ -2,9 +2,9 @@ import "./style.css";
 import { useState, useEffect } from "react";
 
 const WhitePage = (props) => {
-	const textHello = `Hello and welcome to my portfolio page!`;
-	const textAbout = "I`m Alexey aka Condor! 27 y.o.";
-	const textStack = "I`m using HTML5, CSS3, JavaScript, React and Redux.";
+	const textHello = `Hello and welcome to my page! Ask me something!`;
+	const textAbout = "I`m Alexey aka Condor, 28 y.o. from Moscow, Russia.";
+	const textStack = "I`m using HTML5, CSS3, JavaScript, React and MobX.";
 	const textProjects = "I have several projects:";
 	const [textForPrint, setTextForPrint] = useState("");
 	const [textType, setTextType] = useState("hello");
@@ -12,7 +12,7 @@ const WhitePage = (props) => {
 	const [stackImages, setStackImages] = useState(false);
 	const [projectsLinks, setProjectsLinks] = useState(false);
 	const [really, setReally] = useState("");
-	const { html, css, redux, react, js } = props.stackImages;
+	const { html, css, mobx, react, js } = props.stackImages;
 
 	useEffect(() => {
 		setTimeout(() => {
@@ -71,7 +71,7 @@ const WhitePage = (props) => {
 						<img alt='css' src={css}></img>
 						<img alt='js' src={js}></img>
 						<img alt='react' src={react}></img>
-						<img alt='redux' src={redux}></img>
+						<img alt='mobx' src={mobx}></img>
 					</div>
 				)}
 				{projectsLinks && (

@@ -4,7 +4,7 @@ import explode from "../../img/explosion.gif";
 import bg from "../../img/bg.png";
 import html from "../../img/stack/html5.svg";
 import css from "../../img/stack/css3.svg";
-import redux from "../../img/stack/redux.svg";
+import mobx from "../../img/stack/mobx.svg";
 import react from "../../img/stack/react.svg";
 import js from "../../img/stack/js.svg";
 import Spinner from "../spinner";
@@ -21,7 +21,7 @@ const StartPage = () => {
 	const [bgLoaded, setBgLoaded] = useState(false);
 	const [htmlLoaded, setHtmlLoaded] = useState(false);
 	const [cssLoaded, setCssLoaded] = useState(false);
-	const [reduxLoaded, setReduxLoaded] = useState(false);
+	const [mobxLoaded, setMobxLoaded] = useState(false);
 	const [reactLoaded, setReactLoaded] = useState(false);
 	const [jsLoaded, setJsLoaded] = useState(false);
 
@@ -56,10 +56,10 @@ const StartPage = () => {
 		cssImg.onload = () => {
 			setCssLoaded(true);
 		};
-		const reduxImg = new Image();
-		reduxImg.src = redux;
-		reduxImg.onload = () => {
-			setReduxLoaded(true);
+		const mobxImg = new Image();
+		mobxImg.src = mobx;
+		mobxImg.onload = () => {
+			setMobxLoaded(true);
 		};
 		const reactImg = new Image();
 		reactImg.src = react;
@@ -77,7 +77,7 @@ const StartPage = () => {
 			explosionLoaded &&
 			htmlLoaded &&
 			cssLoaded &&
-			reduxLoaded &&
+			mobxLoaded &&
 			reactLoaded &&
 			jsLoaded
 		) {
@@ -93,12 +93,11 @@ const StartPage = () => {
 		explosionLoaded,
 		htmlLoaded,
 		cssLoaded,
-		reduxLoaded,
+		mobxLoaded,
 		reactLoaded,
-		// nextjsLoaded,
 		jsLoaded,
 	]);
-	const stackImages = { html, css, redux, react, js };
+	const stackImages = { html, css, mobx, react, js };
 	const handleBlastClick = () => {
 		let newCounterValue = blastClicker;
 		newCounterValue++;
